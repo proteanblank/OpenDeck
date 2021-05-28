@@ -7,6 +7,7 @@ INCLUDE_DIRS := \
 -I"board/gen/$(TARGET)/" \
 -I"application/" \
 -I"board/$(ARCH)/variants/$(MCU_FAMILY)" \
+-I"board/$(ARCH)/common" \
 -I"$(MCU_DIR)" \
 -I"./"
 
